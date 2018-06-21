@@ -4,7 +4,7 @@ services:
     image: toptnc/ci
     build:
       cache_from:
-        - pchico83/ci
+        - toptnc/ci
       context: .
     depends_on:
       - redis
